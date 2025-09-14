@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminary Roofing - Your Trusted Local Roofing Experts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        :root {
+            --primary-color: #f7b731; /* A bright gold/yellow for a "luminary" feel */
+            --secondary-color: #2c3e50; /* A dark blue for contrast */
+            --light-color: #ecf0f1;
+            --font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            color: var(--secondary-color);
+            background: url('https://longhome.com/wp-content/uploads/2016/08/roofing-shingles-6.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.85);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 2em;
+        }
+
+        .form-container {
+            margin-top: 2em;
+            text-align: left;
+        }
+
+        .form-container h2 {
+            color: var(--secondary-color);
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .form-group {
+            margin-bottom: 1.5em;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            border: none;
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e0a32e;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <header>
+                <h1>Luminary Roofing</h1>
+                <p>Bringing light to your home with a new, dependable roof. At Luminary Roofing, we are dedicated to providing high-quality roofing solutions that protect your investment and enhance your curb appeal. From repairs to full replacements, our expert team ensures every job is done with precision and integrity.</p>
+            </header>
+            
+            <section class="form-container">
+                <h2>Schedule Your Free Consultation</h2>
+                <p>Ready to get started? Fill out the form below to receive a free, no-obligation consultation from one of our roofing specialists.</p>
+                <form action="https://formsubmit.co/malikai1987@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Roofing Inquiry from Landing Page">
+                    <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+                    <input type="hidden" name="_autoresponse" value="Thank you for your inquiry! A representative from Luminary Roofing will be in touch with you shortly.">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone_number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <button type="submit">Get Your Free Quote</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
